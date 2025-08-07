@@ -1,7 +1,7 @@
 // App.jsx
 import React, { useState } from "react";
-import AddTask from "./components/AddTask";
-import TaskList from "./components/TaskList";
+import AddTask from "./components/AddTask.jsx";
+import TaskList from "./components/TaskList.jsx";
 
 const App = () => {
   const [tasks, setTasks] = useState([]);
