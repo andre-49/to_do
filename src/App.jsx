@@ -1,5 +1,5 @@
 // App.jsx
-import React, { useState } from "react";
+import { useState } from "react";
 import AddTask from "./components/AddTask.jsx";
 import TaskList from "./components/TaskList.jsx";
 
@@ -24,7 +24,7 @@ const App = () => {
 
   return (
     <div className="max-w-md mx-auto mt-8 p-4">
-      <h1 className="text-2xl font-bold mb-4">To-Do List</h1>
+      <h1 className="text-7xl font-bold mb-4 text-center text-gray-500">todos</h1>
       <AddTask onAddTask={addTask} />
       <TaskList
         tasks={tasks}
