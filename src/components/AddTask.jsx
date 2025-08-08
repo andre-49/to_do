@@ -25,7 +25,7 @@ const AddTask = ({ onAddTask }) => {
       <button
         type="submit"
         className="p-2 rounded text-blue-600 text-3xl -mx-16 border-gray-200"
-        // className="absolute right-1 top-1/2 -translate-y-1/2 px-3 py-1 bg-blue-500 text-white rounded-md hover:bg-blue-600 text-sm"
+        
       >
         <FaPlusCircle />
       </button>
